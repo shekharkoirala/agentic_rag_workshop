@@ -1,0 +1,8 @@
+!mkdir helper_functions/
+!mkdir images/
+!curl https://raw.githubusercontent.com/mkmbader/pydata_workshop_September2024/master/requirements.txt > requirements.txt
+!curl https://raw.githubusercontent.com/mkmbader/pydata_workshop_September2024/master/helper_functions/helper_functions.py > helper_functions/helper_functions.py
+!curl https://raw.githubusercontent.com/mkmbader/pydata_workshop_September2024/master/helper_functions/keys.py > helper_functions/keys.py
+!curl https://raw.githubusercontent.com/mkmbader/pydata_workshop_September2024/master/helper_functions/tools.py > helper_functions/tools.py
+
+!pip install -r requirements.txt
